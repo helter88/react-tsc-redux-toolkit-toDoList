@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="App">
       <h1>Your list of activities:</h1>
+      <input placeholder='Enter your activity'></input>
+      <button>Add</button>
     </div>
   );
 }
