@@ -16,13 +16,18 @@ function App() {
 
   const addActivity = () => {
     dispatch(toDoActions.add(activity))
+    setActivity('')
   }
 
   const displayActivities = activityList?.map((item)=>{
     return(
-      <li key={Math.random()}>{item}</li>
+      <li key={Math.random()} onClick={() =>delateHandler(item)}>{item}</li>
     )
   } )
+
+  const delateHandler = (el:string)=>{
+    dispatch(toDoActions.remove(el));
+  }
   
   return (
     <div className="App">
