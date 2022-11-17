@@ -1,4 +1,4 @@
-# ToDoList2 with Redux
+# ToDoList with Redux Toolkit
 
 <img src="./readme_images/ToDoList.png" alt="project image">
 <br />
