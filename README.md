@@ -1,8 +1,8 @@
 # ToDoList with Redux Toolkit
 
 <img src="./readme_images/ToDoList.png" alt="project image">
-<br />
-> See demo live :
+
+> See demo live : [click here](https://react-tsc-redux-toolkit-todolist.netlify.app 'click to open link')
 
 ## Description
 
